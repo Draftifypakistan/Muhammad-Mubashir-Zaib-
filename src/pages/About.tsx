@@ -21,7 +21,7 @@ const About: React.FC = () => {
               Helping You Save Time with Professional Document & IT Support
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              At Drafity Pakistani, we understand that professional work requires precision, speed, and dedication. Founded by Muhammad Mubshirzaib, our mission is to handle your complex drafting, Urdu typing, and IT troubleshooting tasks so you can focus on what matters most to you.
+              At Draftify Pakistan, we understand that professional work requires precision, speed, and dedication. Founded by Muhammad Mubashir Zaib, our mission is to handle your complex drafting, Urdu typing, and IT troubleshooting tasks so you can focus on what matters most to you.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               We take pride in our reliability, clear communication, and commitment to delivering fast support for every client. Whether you are a student with an urgent assignment or a business owner needing official documentation, we are here to help.

@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white tracking-tight">
-              Drafity <span className="text-green-500">Pakistani</span>
+              Draftify <span className="text-green-500">Pakistan</span>
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Professional drafting, Urdu typing, Office files, and IT troubleshooting services in Pakistan.
@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              {['Home', 'Services', 'Portfolio', 'About', 'Contact'].map((item) => (
+              {['Home', 'Services', 'Portfolio', 'Updates', 'About', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-gray-400 hover:text-white transition-colors text-sm">
                     {item}

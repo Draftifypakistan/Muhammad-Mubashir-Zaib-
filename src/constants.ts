@@ -9,7 +9,7 @@ import {
   Zap 
 } from 'lucide-react';
 
-export const BUSINESS_NAME = "Muhammad Mubshirzaib, Drafity Pakistani";
+export const BUSINESS_NAME = "Muhammad Mubashir Zaib, Draftify Pakistan";
 export const WHATSAPP_NUMBER = "+923000000000"; // Placeholder, but functional format
 export const PHONE_NUMBER = "+923000000000";
 export const EMAIL = "mubshirzaib@example.com";

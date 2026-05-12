@@ -33,7 +33,13 @@ const Home: React.FC = () => {
                 Professional Services in Pakistan
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-[1.1]">
-                Need Professional <span className="text-blue-900">Document Work</span> or <span className="text-green-600">IT Help?</span>
+                Need Professional <span className="relative inline-block">
+                  <span className="relative z-10 text-blue-900">Document Work</span>
+                  <span className="absolute bottom-1 left-0 w-full h-3 bg-blue-100 rounded-sm -z-0"></span>
+                </span> or <span className="relative inline-block">
+                  <span className="relative z-10 text-green-600">IT Help?</span>
+                  <span className="absolute bottom-1 left-0 w-full h-3 bg-green-100 rounded-sm -z-0"></span>
+                </span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
                 From Word formatting and Excel sheets to PowerPoint presentations, Urdu typing, drafting, and IT troubleshooting, we help you complete your work quickly and professionally.
@@ -127,7 +133,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">Why Hundreds of Customers Trust Drafity Pakistani</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">Why Hundreds of Customers Trust Draftify Pakistan</h2>
               <div className="grid sm:grid-cols-2 gap-6">
                 {[
                   { title: "Fast Response", desc: "We reply within minutes to start your work immediately." },
@@ -155,8 +161,8 @@ const Home: React.FC = () => {
                 <div className="flex items-center gap-4 mt-8 pt-8 border-t border-blue-800">
                   <div className="w-12 h-12 bg-blue-800 rounded-full flex items-center justify-center font-bold text-lg">M</div>
                   <div>
-                    <p className="font-bold">Muhammad Mubshirzaib</p>
-                    <p className="text-blue-300 text-sm">Founder, Drafity Pakistani</p>
+                    <p className="font-bold">Muhammad Mubashir Zaib</p>
+                    <p className="text-blue-300 text-sm">Founder, Draftify Pakistan</p>
                   </div>
                 </div>
               </div>

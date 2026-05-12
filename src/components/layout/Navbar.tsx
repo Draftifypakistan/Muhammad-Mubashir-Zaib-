@@ -11,6 +11,7 @@ export const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
     { name: 'Portfolio', path: '/portfolio' },
+    { name: 'Updates', path: '/updates' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -22,8 +23,8 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex flex-col">
-            <span className="text-blue-900 font-bold text-xl leading-tight">Drafity Pakistani</span>
-            <span className="text-green-600 text-[10px] uppercase tracking-widest font-semibold">Muhammad Mubshirzaib</span>
+            <span className="text-blue-900 font-black text-2xl leading-tight tracking-tight uppercase">Draftify Pakistan</span>
+            <span className="text-green-600 text-[10px] uppercase tracking-widest font-semibold">Muhammad Mubashir Zaib</span>
           </Link>
 
           {/* Desktop Nav */}

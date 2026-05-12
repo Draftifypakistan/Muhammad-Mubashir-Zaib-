@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                  </div>
                  <h2 className="text-3xl font-bold text-gray-900">Request Sent!</h2>
                  <p className="text-gray-600 max-w-sm">
-                   Thank you for reaching out. Muhammad Mubshirzaib will review your request and get back to you shortly via your preferred contact method.
+                   Thank you for reaching out. Muhammad Mubashir Zaib will review your request and get back to you shortly via your preferred contact method.
                  </p>
                  <button 
                    onClick={() => setIsSubmitted(false)}

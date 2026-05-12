@@ -12,6 +12,7 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Updates from './pages/Updates';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/updates" element={<Updates />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             {/* Added standard legal pages placeholders if requested in footer */}
@@ -44,7 +46,7 @@ const PrivacyPage = () => (
   <div className="pt-32 pb-20 max-w-3xl mx-auto px-4">
     <h1 className="text-3xl font-bold mb-6 italic">Privacy Policy</h1>
     <p className="text-gray-600 leading-relaxed">
-      Your files and personal information are handled carefully and are not shared with anyone. At Drafity Pakistani, we respect your confidentiality.
+      Your files and personal information are handled carefully and are not shared with anyone. At Draftify Pakistan, we respect your confidentiality.
     </p>
   </div>
 );
